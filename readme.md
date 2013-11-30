@@ -1,4 +1,4 @@
-# Koshu.PackageTemplate
+# Koshu.PluginTemplate
 
 This repository contains a starter template for creating Koshu plugin packages.
 
