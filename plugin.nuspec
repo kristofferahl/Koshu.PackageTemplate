@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+		<id>Koshu.PluginTemplate</id>
+		<version>0.1.0</version>
+		<authors>Kristoffer Ahl</authors>
+		<owners>Kristoffer Ahl</owners>
+		<projectUrl>https://github.com/kristofferahl/Koshu</projectUrl>
+		<licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Plugin for Koshu</description>
+		<tags>koshu plugin</tags>
+	</metadata>
+	<files>
+		<file src="**\*.*" />
+		<file src="plugin.nuspec" />
+	</files>
+</package>
