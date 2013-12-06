@@ -16,7 +16,7 @@ $parameters		| out-string		# Outputs the parameters available to you
 
 $nuspecTemplate = "$($parameters.installationDir)\plugin.nuspec.template"
 $nuspec = ([xml] (get-content $nuspecTemplate))
-$nuspec.package.metadata.id = $parameters.pluginName
+$nuspec.package.metadata.id = "$($parameters.pluginName)"
 $nuspec.save($nuspecTemplate)
 
 rename-item $nuspecTemplate -newname "$($parameters.pluginName).nuspec"
