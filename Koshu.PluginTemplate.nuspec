@@ -8,8 +8,8 @@
 		<projectUrl>https://github.com/kristofferahl/Koshu</projectUrl>
 		<licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>Plugin for Koshu</description>
-		<tags>koshu plugin</tags>
+		<description>Plugin template for Koshu</description>
+		<tags>koshu plugin psake</tags>
 	</metadata>
 	<files>
 		<file src="**\*.*" />
