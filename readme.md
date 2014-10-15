@@ -8,7 +8,7 @@ This repository contains a starter template for creating Koshu plugin packages.
 Clone this repository, remove the .git directory and hack away.
 
 ### Publishing you're plugin package
-When you're done, make sure you put your package on nuget.org. The nuget package should be tagged with "koshu" and "plugin".
+When you're done, make sure you put your package on nuget.org. The nuget package should be tagged with "koshu" "plugin" and "psake" to make it easier to find.
 
 ## License
 MIT (http://opensource.org/licenses/mit-license.php)
